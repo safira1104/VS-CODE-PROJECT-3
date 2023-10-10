@@ -1,0 +1,231 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: rgb(1, 178, 237);
+    padding: 20px 30px;
+    color: rgb(254, 254, 252);
+    text-align: center;
+    border: 2px solid #000000;
+  
+}
+.profil{
+    position: relative; 
+}
+.profil img{ 
+    width: 1350px;
+    height: 500px;
+    max-width: 100%;
+    background-size: 100% 100%;
+    background-size: cover;
+    
+}
+.profil .welcome{
+    position: absolute;
+    left: 500px;
+    top: 50px; 
+    text-align: center;
+}
+.profil h2{
+    font-size: 30px;
+   
+}
+.profil h2 span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: rgb(231, 130, 59);
+    padding: 0px 0px;
+    color: white;
+    border: solid#000000;
+    position: sticky;
+    top: 0px;
+    text-transform: uppercase;
+    position: -webkit-sticky;
+    z-index: 99;
+}
+nav ul{
+  top: 0px; 
+    max-width: 1200px;
+    margin: 0; auto;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{ 
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.active{
+    background-color: #872d00;
+    
+}
+nav li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+main{
+    float: left;
+    max-width: 100%;
+    width: 1000px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+}
+
+
+.rightcolumn {
+    float: right;
+    width: 300px;
+    max-width: 100%;
+    line-height: 0.7;
+    
+  }
+  .rightcolumn h3{
+    color: aqua;
+  }
+  .rightcolumn h4{
+   font-variant:small-caps;
+   font-size: 13.5px;
+   text-align: lef;
+  }
+.aboutme img{ 
+    max-width: 100%;
+    width: 4cm;
+    height: 4cm;
+    margin-left: 50px;
+    
+    
+    
+}
+
+.popular img{ 
+    max-width: 100%;
+    width: 7cm;
+    height: 4cm;  
+    border: 1px solid #ccc;
+}
+img:hover{
+    border: 1px solid #151313;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+main:hover{
+    position: relative;
+    top: -10px;
+}
+article .aboutme{
+    padding: 0px 0px;
+}
+article{
+    border: 2px solid rgb(1, 0, 0);
+    padding: 35px 30px;
+    padding-bottom: 0%;
+}
+
+article .introduction{
+    padding-bottom: 10px;
+    position: relative;    
+}
+
+article h2{
+    font-size: 48px;
+    text-align: center;
+}
+article p{
+    line-height: 0.7cm; 
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.introduction img{ 
+    max-width: 100%;
+    left: 0px;
+    width: 100%;
+    padding-top: 20px;
+}
+.event{
+    padding: 100px 60px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    max-height: 100%;
+}
+.registrasi{
+    padding: 40px 35px; 
+}
+.event p{ 
+    max-width: 100%;
+    left: 0px;
+    width: 500px;
+    line-height: 0.7cm; 
+}
+.event img{ 
+    max-width: 100%;
+    left: 0px;
+    width: 300px;
+    height: 350px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: right;
+    
+}
+.registrasi form{
+    border-top: rgba(237, 222, 222, 0.648);
+    padding-right: 50px;
+     
+}
+
+
+.registrasi img{ 
+    max-width: 100%;
+    width: 350px;
+    height: 350px;
+    padding-left: 20px;
+
+}
+nav li a:hover{
+  position: relative;
+  background-color: #111;
+}
+input:focus{
+    border: solid rgb(2, 2, 2);
+    outline: none;
+}
+
+input:valid{
+    border:  solid greenyellow;
+}
+input{
+    display: flex;
+    width: 60%;
+}
+label{
+    font-size: 22px;
+}
+select{
+    width: 60%;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+footer{
+    background-color: rgb(1, 178, 237);
+    color: rgb(249, 247, 247);
+    font-variant: small-caps;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 15px;
+    border: solid #000000; 
+    clear:both;
+
+}
